@@ -2,6 +2,7 @@ Slots = {
     PointSlot = 'Slot3',
     NamekianSlot = 'Slot2',
 }
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer("Made By kiwixcokee!", "All")
 
 ------------------- Scripts starts here ------------------------
 
